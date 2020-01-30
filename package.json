@@ -1,6 +1,6 @@
 {
-  "name": "fliplet-eslint-config-client",
-  "version": "0.1.0",
+  "name": "eslint-config-fliplet-client",
+  "version": "0.2.0",
   "description": "ESLint shareable config for the Fliplet style",
   "license": "Apache-2.0",
   "repository": "fliplet/eslint-config-client",

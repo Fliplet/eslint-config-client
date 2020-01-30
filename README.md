@@ -4,7 +4,7 @@
 ## Installation
 
 ```
-$ npm install --save-dev eslint fliplet-eslint-config-client
+$ npm install --save-dev eslint eslint-config-fliplet-client
 ```
 
 
