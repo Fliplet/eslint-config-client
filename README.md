@@ -1,1 +1,1 @@
-# ESLint configuration for Fliplet projects
+# ESLint configuration for JS code running in Fliplet apps
