@@ -1,19 +1,12 @@
 module.exports = {
   /* Based on https://github.com/1hella/eslint-config-airbnb-es5 */
   "globals": {
-    "Fliplet": true,                 // Fliplet global
-    "FLPortal": true,                // App list global
-    "_": true,                       // Lodash global
-    "FLBuilder": true,               // Form Builder global
-    "Swiper": true,                  // Slider/onboarding global for the Swiper library
-    "Promise": true,                 // Promise global
+    "_": true,
+    "Fliplet": true,
+    "Promise": true,
     "Handlebars": true,
-    "flSlider": true,
     "moment": true,
-    "Highcharts": true,
-    "tableDataArray": true,
     "tinymce": true
-
   },
   "env": {                           // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
     "browser": true,                 // browser global variables
