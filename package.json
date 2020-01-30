@@ -1,0 +1,37 @@
+{
+  "name": "fliplet-eslint-config",
+  "version": "0.1.0",
+  "description": "ESLint shareable config for the Fliplet style",
+  "license": "Apache-2.0",
+  "repository": "fliplet/eslint-config-client",
+  "author": "Fliplet",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "fliplet",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.16.0"
+  }
+}
