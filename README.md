@@ -10,7 +10,7 @@ $ npm install --save-dev eslint fliplet-eslint-config-client
 
 ## Usage
 
-Once the `fliplet-eslint-config-client` package is installed, you can use it by specifying `google` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+Once the `fliplet-eslint-config-client` package is installed, you can use it by specifying `fliplet-client` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ```js
 {
@@ -21,7 +21,7 @@ Once the `fliplet-eslint-config-client` package is installed, you can use it by 
 }
 ```
 
-### Using the `google` config with `eslint:recommended`
+### Using the `fliplet-client` config with `eslint:recommended`
 
 There are several rules in the [`eslint:recommended` ruleset](http://eslint.org/docs/rules/) that Fliplet style is not opinionated about that you might want to enforce in your project.
 
