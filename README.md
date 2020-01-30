@@ -4,7 +4,7 @@
 ## Installation
 
 ```
-$ npm install --save-dev eslint eslint-config-fliplet
+$ npm install --save-dev eslint babel-eslint eslint-config-fliplet
 ```
 
 
