@@ -1,4 +1,8 @@
 module.exports = {
+  parserOptions: {
+    ecmaVersion: 5 // ES5
+  },
+
   /* Based on https://github.com/1hella/eslint-config-airbnb-es5 */
   globals: {
     _: true,
