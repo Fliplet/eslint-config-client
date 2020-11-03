@@ -18,7 +18,7 @@ module.exports = {
     node: true, // Node.js global variables and Node.js-specific rules
     jquery: true // jQuery global variables.
   },
-  parser: "babel-eslint", // https://github.com/babel/babel-eslint
+  parser: "espree",
   rules: {
     /**
      * Strict mode
