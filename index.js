@@ -220,7 +220,7 @@ module.exports = {
       { "blankLine": "always", "prev": "*", "next": "block-like" },
       { "blankLine": "always", "prev": "block-like", "next": "*" },
       { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*"},
-      { "blankLine": "always", "prev": ["block-like"], "next": ["const", "let", "var"] },
+      { "blankLine": "always", "prev": ["block-like", "expression", "function", "import"], "next": ["const", "let", "var"] },
       { "blankLine": "any", "prev": ["const", "let", "var"], "next": ["const", "let", "var"]}
     ]
   }
