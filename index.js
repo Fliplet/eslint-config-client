@@ -213,6 +213,8 @@ module.exports = {
       }
     ],
 
+    "object-curly-spacing": ["error", "always"],
+
     // https://eslint.org/docs/rules/padding-line-between-statements
     "padding-line-between-statements": [
       "error",
