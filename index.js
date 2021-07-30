@@ -10,7 +10,10 @@ module.exports = {
     Promise: true,
     Handlebars: true,
     moment: true,
-    tinymce: true
+    tinymce: true,
+    T: true,
+    TD: true,
+    TN: true
   },
   env: {
     // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
