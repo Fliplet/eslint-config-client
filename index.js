@@ -122,7 +122,8 @@ module.exports = {
     "handle-callback-err": 1, // http://eslint.org/docs/rules/handle-callback-err
     radix: 2, // http://eslint.org/docs/rules/radix
     "wrap-iife": [2, "any"], // http://eslint.org/docs/rules/wrap-iife
-    yoda: 2, // http://eslint.org/docs/rules/yoda
+    yoda: 2, // http://eslint.org/docs/rules/yoda,
+    "no-prototype-builtins": 0, // https://eslint.org/docs/rules/no-prototype-builtins
 
     /**
      * Style
