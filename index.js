@@ -13,7 +13,8 @@ module.exports = {
     tinymce: true,
     T: true,
     TD: true,
-    TN: true
+    TN: true,
+    Modernizr: true
   },
   env: {
     // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
