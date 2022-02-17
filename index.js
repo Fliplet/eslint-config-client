@@ -14,7 +14,14 @@ module.exports = {
     T: true,
     TD: true,
     TN: true,
-    Modernizr: true
+    Modernizr: true,
+    browser: true,
+    expect: true,
+    describe: true,
+    before: true,
+    it: true,
+    page: true,
+    casual: true
   },
   env: {
     // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
@@ -129,7 +136,9 @@ module.exports = {
     /**
      * Style
      */
-    indent: [2, 2, { SwitchCase: 1 }], // http://eslint.org/docs/rules/indent
+    indent: [2, 2, {
+      SwitchCase: 1
+    }], // http://eslint.org/docs/rules/indent
     "brace-style": [
       2, // http://eslint.org/docs/rules/brace-style
       "1tbs",
@@ -223,12 +232,36 @@ module.exports = {
     // https://eslint.org/docs/rules/padding-line-between-statements
     "padding-line-between-statements": [
       "error",
-      { "blankLine": "always", "prev": ["*"], "next": "return" },
-      { "blankLine": "always", "prev": "*", "next": "block-like" },
-      { "blankLine": "always", "prev": "block-like", "next": "*" },
-      { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*"},
-      { "blankLine": "always", "prev": ["block-like", "expression", "function", "import"], "next": ["const", "let", "var"] },
-      { "blankLine": "any", "prev": ["const", "let", "var"], "next": ["const", "let", "var"]}
+      {
+        "blankLine": "always",
+        "prev": ["*"],
+        "next": "return"
+      },
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "block-like"
+      },
+      {
+        "blankLine": "always",
+        "prev": "block-like",
+        "next": "*"
+      },
+      {
+        "blankLine": "always",
+        "prev": ["const", "let", "var"],
+        "next": "*"
+      },
+      {
+        "blankLine": "always",
+        "prev": ["block-like", "expression", "function", "import"],
+        "next": ["const", "let", "var"]
+      },
+      {
+        "blankLine": "any",
+        "prev": ["const", "let", "var"],
+        "next": ["const", "let", "var"]
+      }
     ]
   }
 };
