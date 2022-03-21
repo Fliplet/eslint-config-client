@@ -51,7 +51,7 @@ To see how the `fliplet` config compares with `eslint:recommended`, refer to the
 }
 ```
 
- Once the setup is complete, each commit will trigger a build that creates annotations for all problems found.
+ Once the setup is complete, each commit will trigger a build that creates annotations for all problems found ([see example](https://github.com/Fliplet/fliplet-widget-form-builder/actions/runs/378678895)).
 
 ## License
 
