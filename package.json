@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-fliplet",
-  "version": "1.0.8",
-  "description": "ESLint shareable config for the Fliplet style (ES5)",
+  "version": "1.0.9",
+  "description": "ESLint shareable config for the Fliplet style",
   "license": "Apache-2.0",
   "repository": "fliplet/eslint-config-client",
   "author": "Fliplet",
