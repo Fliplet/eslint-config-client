@@ -19,6 +19,7 @@ module.exports = {
     browser: true, // browser global variables
     node: true, // Node.js global variables and Node.js-specific rules
     jquery: true, // jQuery global variables
+    mocha: true, // Adds all Mocha global variables
     es2017: true // Adds all ECMAScript 2017 globals
   },
   parser: "espree",
