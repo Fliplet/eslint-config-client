@@ -1,9 +1,7 @@
 module.exports = {
   parserOptions: {
-    ecmaVersion: 5 // ES5
+    ecmaVersion: 8 // ECMAScript 2017
   },
-
-  /* Based on https://github.com/1hella/eslint-config-airbnb-es5 */
   globals: {
     _: true,
     Fliplet: true,
@@ -20,7 +18,9 @@ module.exports = {
     // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
     browser: true, // browser global variables
     node: true, // Node.js global variables and Node.js-specific rules
-    jquery: true // jQuery global variables.
+    jquery: true, // jQuery global variables
+    mocha: true, // Adds all Mocha global variables
+    es2017: true // Adds all ECMAScript 2017 globals
   },
   parser: "espree",
   rules: {
