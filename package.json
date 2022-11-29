@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fliplet",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "ESLint shareable config for the Fliplet style",
   "license": "Apache-2.0",
   "repository": "fliplet/eslint-config-client",
@@ -29,9 +29,9 @@
     "hint"
   ],
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^6.5.0"
   },
   "peerDependencies": {
-    "eslint": ">=5.16.0"
+    "eslint": ">=6.5.0"
   }
 }
