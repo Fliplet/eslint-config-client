@@ -129,7 +129,7 @@ module.exports = {
     /**
      * Style
      */
-    indent: [2, 2, { SwitchCase: 1 }], // http://eslint.org/docs/rules/indent
+    indent: [2, 2, { SwitchCase: 1, offsetTernaryExpressions: false, MemberExpression: 1 }], // http://eslint.org/docs/rules/indent
     "brace-style": [
       2, // http://eslint.org/docs/rules/brace-style
       "1tbs",
