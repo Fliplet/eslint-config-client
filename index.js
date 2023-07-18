@@ -206,6 +206,7 @@ module.exports = {
     "keyword-spacing": 2, // http://eslint.org/docs/rules/keyword-spacing
     "space-before-blocks": 2, // http://eslint.org/docs/rules/space-before-blocks
     "space-before-function-paren": [2, "never"], // http://eslint.org/docs/rules/space-before-function-paren
+    "space-in-parens": [2, "never"], // http://eslint.org/docs/rules/space-in-parens
     "space-infix-ops": 2, // http://eslint.org/docs/rules/space-infix-ops
     "space-unary-ops": 2, // http://eslint.org/docs/rules/space-unary-ops
     "spaced-comment": [
