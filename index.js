@@ -203,6 +203,7 @@ module.exports = {
         after: true
       }
     ],
+    "operator-linebreak": [2, "before"], // http://eslint.org/docs/rules/operator-linebreak
     "keyword-spacing": 2, // http://eslint.org/docs/rules/keyword-spacing
     "space-before-blocks": 2, // http://eslint.org/docs/rules/space-before-blocks
     "space-before-function-paren": [2, "never"], // http://eslint.org/docs/rules/space-before-function-paren
