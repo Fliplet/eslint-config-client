@@ -29,9 +29,11 @@
     "hint"
   ],
   "devDependencies": {
-    "eslint": "^6.5.0"
+    "@babel/eslint-parser": "^7.23.10",
+    "@stylistic/eslint-plugin-js": "^1.0.1",
+    "eslint": "^8.53.0"
   },
   "peerDependencies": {
-    "eslint": ">=6.5.0"
+    "eslint": ">=8.53.0"
   }
 }

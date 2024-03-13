@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install --save-dev eslint babel-eslint eslint-config-fliplet
+npm install --save-dev eslint-config-fliplet
 ```
 
 Make sure the `package-lock.json` file is committed too.
