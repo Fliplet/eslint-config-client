@@ -22,7 +22,10 @@ module.exports = {
     mocha: true, // Adds all Mocha global variables
     es2017: true // Adds all ECMAScript 2017 globals
   },
-  parser: "espree",
+  parser: "@babel/eslint-parser",
+  plugins: [
+    "@stylistic/js"
+  ],
   rules: {
     /**
      * Strict mode
@@ -129,7 +132,10 @@ module.exports = {
     /**
      * Style
      */
-    indent: [2, 2, { SwitchCase: 1, offsetTernaryExpressions: false, MemberExpression: 1 }], // http://eslint.org/docs/rules/indent
+    indent: [2, 2, {
+      SwitchCase: 1,
+      MemberExpression: 1
+    }], // http://eslint.org/docs/rules/indent
     "brace-style": [
       2, // http://eslint.org/docs/rules/brace-style
       "1tbs",
@@ -150,10 +156,10 @@ module.exports = {
         properties: "never"
       }
     ],
-    "comma-spacing": [
+    "@stylistic/js/comma-spacing": [
       2,
       {
-        // http://eslint.org/docs/rules/comma-spacing
+        // https://eslint.style/rules/js/comma-spacing
         before: false,
         after: true
       }
@@ -225,12 +231,36 @@ module.exports = {
     // https://eslint.org/docs/rules/padding-line-between-statements
     "padding-line-between-statements": [
       "error",
-      { "blankLine": "always", "prev": ["*"], "next": "return" },
-      { "blankLine": "always", "prev": "*", "next": "block-like" },
-      { "blankLine": "always", "prev": "block-like", "next": "*" },
-      { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*"},
-      { "blankLine": "always", "prev": ["block-like", "expression", "function", "import"], "next": ["const", "let", "var"] },
-      { "blankLine": "any", "prev": ["const", "let", "var"], "next": ["const", "let", "var"]}
+      {
+        "blankLine": "always",
+        "prev": ["*"],
+        "next": "return"
+      },
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "block-like"
+      },
+      {
+        "blankLine": "always",
+        "prev": "block-like",
+        "next": "*"
+      },
+      {
+        "blankLine": "always",
+        "prev": ["const", "let", "var"],
+        "next": "*"
+      },
+      {
+        "blankLine": "always",
+        "prev": ["block-like", "expression", "function", "import"],
+        "next": ["const", "let", "var"]
+      },
+      {
+        "blankLine": "any",
+        "prev": ["const", "let", "var"],
+        "next": ["const", "let", "var"]
+      }
     ]
   }
 };
